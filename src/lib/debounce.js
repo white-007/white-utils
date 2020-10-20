@@ -1,6 +1,5 @@
 /**
  * 函数防抖
- * 
  * @param {*} func 执行函数
  * @param {*} wait 延迟时间
  * @param {*} immediate 是否立即执行
