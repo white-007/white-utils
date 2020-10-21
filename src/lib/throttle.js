@@ -3,7 +3,7 @@
  * @param {*} func 
  * @param {*} wait 
  */
-const throttle = function (func, wait) {
+function throttle(func, wait) {
   let timeout;
   return function () {
     let context = this;
@@ -17,4 +17,4 @@ const throttle = function (func, wait) {
   }
 }
 
-export default throttle
+export default throttle 

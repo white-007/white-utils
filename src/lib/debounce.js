@@ -4,7 +4,7 @@
  * @param {*} wait 延迟时间
  * @param {*} immediate 是否立即执行
  */
-const debounce = function (func, wait, immediate) {
+function debounce(func, wait, immediate) {
   let timer = null
   return function () {
     let self = this,
